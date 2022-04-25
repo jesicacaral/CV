@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+/* CSS Document */
+body {
+    background-color: #FFCCCC;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.espacio-abajo {
+    margin-bottom: 44px;
+}
+
+.espacio-abajo-medio {
+    margin-bottom: 12px;
+}
+
+.fondo-perfil {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-left: 12px;
+}
+
+.subtitulo {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    color: #434866;
+}
+
+.fondo-titulo-cuadro {
+    color: #ffffff;
+    background-color: #ff9999;
+    border-radius: 8px;
+}
+
+.titulo-cuadro {
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.subtitulo-cuadro {
+    font-weight: 700
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.flex-container-column {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.fondo-celeste {
+    background-color: #7c89ac;
+    padding: 15px;
+    width: 100%;
+    border-bottom-left-radius: 8px;
+}
+
+.fondo-azul {
+    background-color: #434866;
+    padding: 15px;
+    width: 100%;
+    border-bottom-right-radius: 8px;
+}
+
+.fecha {
+    font-weight: 700;
+}
+
+.subtitulos-bordes {
+    border: 1px outset #333366;
+    border-radius: 15px;
+    padding: 10px;
+    width: 40%;
+    text-align: left;
+}
+
+.ancho-articulo {
+    width: 50%;
+}
+
+.contenido-articulo {
+    padding-left: 14px;
+}
+
+.estilo-imagen {
+    border-radius: 8px;
+}
+
+.contenedor-principal{
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
