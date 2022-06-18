@@ -1,0 +1,11 @@
+.borde {
+    border: solid 5px #E56563;
+    border-radius: 100px;
+    padding: 50px;
+}
+
+@media (max-width:600px) {
+    section {
+        margin-bottom: 30px;
+    }
+}

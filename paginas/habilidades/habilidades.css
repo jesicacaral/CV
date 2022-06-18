@@ -1,0 +1,71 @@
+div.habilidad {
+    display: flex;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: conic-gradient(#E56563 var(--progress), #434343 0deg);
+    font-size: 0;
+}
+
+div.habilidad::after {
+    content: attr(data-progress) '%';
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 35px;
+    border-radius: 50%;
+    background: #F2EAD4;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#habilidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.flex-habilidad{
+    flex-direction: row;
+    display: flex;
+    gap: 15px;
+}
+
+#habilidades article {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 160px;
+}
+
+.borde {
+    border: solid 5px #E56563;
+    border-radius: 100px;
+    padding: 30px;
+}
+
+@media (max-width:600px) {
+    #habilidades {
+        flex-direction: column;
+        margin-bottom: 30px;
+        gap: unset;
+    }
+
+    div.habilidad {
+        width: 140px;
+        height: 140px;
+    }
+
+    #habilidades article .margen-abajo-2{
+        margin-bottom: 10px;
+    }
+
+    .flex-habilidad{
+        gap: unset;
+    }
+}

@@ -1,0 +1,86 @@
+#sobre-mi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sobre-mi .presentacion {
+    width: 25%;
+}
+
+#sobre-mi .contacto {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sobre-mi .formulario {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contacto div {
+    background-color: #E56563;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 175px;
+}
+
+form {
+    background-color: #F2EAD4;
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    border-width: 1px;
+}
+
+.boton{
+    background-color: #E56563;
+    cursor: pointer;
+}
+
+@media (max-width:600px) {
+    #sobre-mi {
+        flex-direction: column;
+    }
+
+    #sobre-mi .presentacion {
+        width: 100%;
+    }
+
+    #sobre-mi .contacto {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #sobre-mi .formulario {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    form {
+        width: 320px;
+        height: 550px;
+    }
+}
